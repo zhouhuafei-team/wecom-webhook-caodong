@@ -35,6 +35,7 @@ module.exports = (ctx, next) => {
   }
   if (!signSuccess) {
     response.status = 204
+    console.log('签名失败')
     // response.status = 400
     // response.body = { message: '签名失败' }
     return
