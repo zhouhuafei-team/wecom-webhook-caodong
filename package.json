@@ -1,0 +1,26 @@
+{
+  "name": "wecom-webhook-caodong",
+  "version": "1.0.0",
+  "description": "企微消息推送-api接口出错时进行消息推送",
+  "main": "",
+  "scripts": {
+    "start": "node ./scripts/start.js",
+    "stop": "node ./scripts/stop.js",
+    "restart": "npm run stop && npm run start "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouhuafei/wecom-webhook-caodong.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouhuafei/wecom-webhook-caodong/issues"
+  },
+  "homepage": "https://github.com/zhouhuafei/wecom-webhook-caodong#readme",
+  "dependencies": {
+    "prompts": "^2.4.1",
+    "shelljs": "^0.8.4"
+  }
+}
