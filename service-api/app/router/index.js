@@ -13,7 +13,6 @@ module.exports = app => {
   // hello world
   router.get(path + '/', controller.hello.get)
 
-  // we
-  router.get(path + '/we', controller.we.post) // 删除。待续....
-  // router.post(path + '/we', sign, controller.we.post) // 放开。待续....
+  // send
+  router.post(path + '/send', sign, controller.send.post)
 }

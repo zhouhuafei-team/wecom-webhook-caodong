@@ -1,10 +1,10 @@
 const request = require('../../utils/request')
 
 module.exports = {
-  we (data) {
+  send (options) {
     return request({
-      url: 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send',
-      data
+      method: 'POST',
+      ...options
     })
   }
 }

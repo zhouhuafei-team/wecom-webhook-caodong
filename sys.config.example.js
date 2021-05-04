@@ -4,25 +4,25 @@ module.exports = {
   songXia: {
     uat: {
       pc: {
-        api: '',
-        webHookKey: '',
+        permissionApi: '',
+        webHookUrl: '',
         name: '松下-uat环境-pc管理系统'
       },
       mp: {
-        api: '',
-        webHookKey: '',
+        permissionApi: '',
+        webHookUrl: '',
         name: '松下-uat环境-mp客户端'
       }
     },
     uatCs: {
       pc: {
-        api: '',
-        webHookKey: '',
+        permissionApi: '',
+        webHookUrl: '',
         name: '松下-uatCs环境-pc管理系统'
       },
       mp: {
-        api: '',
-        webHookKey: '',
+        permissionApi: '',
+        webHookUrl: '',
         name: '松下-uatCs环境-mp客户端'
       }
     }

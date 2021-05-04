@@ -19,7 +19,6 @@ function createSign (data) {
 }
 
 module.exports = (ctx, next) => {
-  console.log('++++++++++++')
   const { request, response } = ctx
   const data = request.method === 'GET' ? request.query : request.body
   let { sign, ...ext } = data
@@ -35,8 +34,9 @@ module.exports = (ctx, next) => {
     signSuccess = false
   }
   if (!signSuccess) {
-    response.status = 400
-    response.body = { message: '签名失败' }
+    response.status = 204
+    // response.status = 400
+    // response.body = { message: '签名失败' }
     return
   }
 
