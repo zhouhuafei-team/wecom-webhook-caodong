@@ -14,16 +14,16 @@ module.exports = {
         name: '松下-uat环境-mp客户端'
       }
     },
-    uatCs: {
+    uatcs: {
       pc: {
         permissionApi: '',
         webHookUrl: '',
-        name: '松下-uatCs环境-pc管理系统'
+        name: '松下-uatcs环境-pc管理系统'
       },
       mp: {
         permissionApi: '',
         webHookUrl: '',
-        name: '松下-uatCs环境-mp客户端'
+        name: '松下-uatcs环境-mp客户端'
       }
     }
   }
